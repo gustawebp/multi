@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap');
+
+body{
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  background-color: #242424;
+
+}
+
+.app{
+  text-align: center;
+}
+
+button, input{
+  margin: 5px;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  color: white;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+.container{
+  text-align: center;
+  border: 1px solid white;
+  width: 50%;
+  margin: auto;
+  padding: 20px 10px;
+  border-radius: 20px;
+  box-shadow:
+  2.8px 2.8px 2.2px rgba(0, 0, 0, 0.062),
+  6.7px 6.7px 5.3px rgba(0, 0, 0, 0.089),
+  12.5px 12.5px 10px rgba(0, 0, 0, 0.11),
+  22.3px 22.3px 17.9px rgba(0, 0, 0, 0.131),
+  41.8px 41.8px 33.4px rgba(0, 0, 0, 0.158),
+  100px 100px 80px rgba(0, 0, 0, 0.22)
+;
+}
+
+input,select{
+  background-color: #1a1a1a;
+  border: 0;
+  padding: 15px;
+  color: white;
+  font-size: 15pt;
+  border-radius: 50px;
+}
+
+input::placeholder{
+  color: rgba(255, 255, 255, 0.421);
+
+}
+.confirmacao-p{
+  color: #646cff;
+}
+
+h2{
+  color: #7d65b1;
+  
+
+}
